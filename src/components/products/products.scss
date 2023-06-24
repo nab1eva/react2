@@ -1,0 +1,72 @@
+$black: #2c2d2e;
+$white: #fff;
+$divider: #00103d;
+$orange: #ef7c00;
+
+.products {
+  h1 {
+    color: $black;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    span {
+      color: $orange;
+    }
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+  .btn {
+    background-color: transparent;
+    border: 2px solid $orange;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: $orange;
+    font-weight: 500;
+    font-size: 15px;
+    &:hover {
+      background-color: $orange;
+      color: $white;
+    }
+  }
+}
+.react-tabs__tab-list {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  border-bottom: none;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.react-tabs__tab {
+  display: flex;
+  justify-content: center;
+  border-radius: 60px;
+  border: 1px solid rgba(128, 128, 128, 0.254);
+  color: $orange;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.react-tabs__tab--selected {
+  background-color: $orange;
+  border: none;
+  color: $white;
+}
+.react-tabs__tab-panel {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}

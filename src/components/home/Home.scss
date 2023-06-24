@@ -1,0 +1,61 @@
+$black: #2c2d2e;
+$white: #fff;
+$divider: #00103d;
+$orange: #ef7c00;
+
+button {
+  background-color: transparent;
+  border: 2px solid $orange;
+  border-radius: 4px !important;
+  padding: 10px 20px;
+  color: $orange;
+  font-weight: 500;
+  font-size: 15px;
+  &:hover {
+    background-color: $orange;
+    color: $white;
+  }
+}
+
+.home {
+  margin-top: 85px;
+  background-image: url("../../assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.content {
+  padding: 150px 0;
+
+  .left {
+    max-width: 600px;
+    border-radius: 4px !important;
+    padding: 20px 10px;
+    backdrop-filter: blur(5px);
+  }
+  h6 {
+    padding-bottom: 16px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    color: $black;
+  }
+  h1 {
+    padding-bottom: 17px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: $black;
+  }
+  p {
+    max-width: 582px;
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: $black;
+  }
+}
