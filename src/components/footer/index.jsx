@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="head">
-            <a href="#home">
+            <a href="#">
               <img src={logo} alt="logo" />
             </a>
             <ul>
@@ -77,8 +77,8 @@ const Footer = () => {
             </ul>
             <ul>
               <ul>
-                <li className="second">
-                  <a className="title_second" href="#home">
+                <li>
+                  <a href="#home">
                     Беларусь
                   </a>
                 </li>
@@ -90,8 +90,8 @@ const Footer = () => {
                 </li>
               </ul>
               <ul>
-                <li className="second">
-                  <a className="title_second" href="#home">
+                <li>
+                  <a href="#home">
                     Москва
                   </a>
                 </li>
@@ -106,7 +106,7 @@ const Footer = () => {
             <ul>
               <ul>
                 <li>
-                  <a className="title_second" href="#home">
+                  <a href="#home">
                     Европа
                   </a>
                 </li>
@@ -116,7 +116,7 @@ const Footer = () => {
               </ul>
               <ul>
                 <li>
-                  <a className="title_second" href="#home">
+                  <a href="#home">
                     Екатеринбург
                   </a>
                 </li>
